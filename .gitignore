@@ -1,6 +1,6 @@
 .htaccess
 .DS_Store?
-upload/*
+uploads/*
 themes/twentyten/*
 themes/twentyeleven/*
 plugins/*
