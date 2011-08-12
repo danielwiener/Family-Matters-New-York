@@ -68,7 +68,7 @@ a img {
 }
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: block;   
 }
 
 
@@ -84,8 +84,8 @@ body {
 }
 #branding hgroup {
 	margin: 0;
-	border: none;
-}
+	padding: 0;
+}    
 #access div {
 	margin: 0 7.6%;
 }
@@ -493,7 +493,7 @@ a:hover {
 }
 #access a.assistive-text:active,
 #access a.assistive-text:focus {
-	background: transparent;
+	background: #eee;
 	border-bottom: 1px solid #ddd;
 	color: #1982d1;
 	clip: auto !important;
@@ -510,15 +510,14 @@ a:hover {
 
 #branding {
 	background: #fff url('images/header_bg.jpg') no-repeat top;
-	padding-bottom: 94px;
-	position: relative;
+	padding: 0 0 144px 0;     /*the bottom padding is there so the background image displays - the logo etc.  */
+    position: relative;   
 	z-index: 2;
+} 
 
-}
 #site-title {
-	margin-right: 600px;
+	/*margin-right: 600px;*/
 	/*padding: 3.65625em 0 0; */
-	border: 1px solid #999;
 	left:-10000px; /*starts here hides the title but it is still there in the text*/
 	width:1px;
 	height:1px;
@@ -527,9 +526,9 @@ a:hover {
 }
 #site-title a {
 	color: #111;
-	font-size: 30px;
+	font-size: 0px;
 	font-weight: bold;
-	line-height: 36px;
+	line-height: 0px;
 	text-decoration: none;
  
 }
@@ -561,7 +560,8 @@ a:hover {
 	display: block;
 	float: left;
 	margin: 0 auto 6px;
-	width: 100%;
+	padding-top: 100px; /*this moves the menu down so that it over the blue bar in the header bg image */
+	width: 100%; 
 }
 #access ul {
 	font-size: 13px;
