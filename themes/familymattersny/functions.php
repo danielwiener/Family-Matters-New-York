@@ -78,16 +78,10 @@ function twentyeleven_setup() {
 	add_theme_support( 'post-thumbnails' );
 
 	// DW deletes this. The next four constants set how Twenty Eleven supports custom headers.
-
-	// DW deletes this.The default header text color
-   
-
+	// DW deletes this.The default header text color  
 	// DW deletes this. By leaving empty, we allow for random image rotation.
-
 	// DW deletes this. The height and width of your custom header.
 	// Add a filter to twentyeleven_header_image_width and twentyeleven_header_image_height to change these values.
- 
-
 	// DW changes this. We'll be using post thumbnails for custom header images on posts and pages.
 	// We want them to be the size of the header image that we just defined
 	// Larger images will be auto-cropped to fit, smaller ones will be ignored. See header.php.
