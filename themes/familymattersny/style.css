@@ -332,6 +332,7 @@ body {
 }
 #page {
 	background: #EAF1F5;
+	border: 1px solid red;
 }
 
 /* Headings */
@@ -2193,7 +2194,7 @@ p.comment-form-comment {
 
 #colophon {
 	clear: both;
-	background: #EAF1F5 url('images/footer_bg.jpg') no-repeat  center center;
+	background: #fff url('images/footer_bg.jpg') no-repeat  center center;
 	height: 200px;
 }
 #supplementary {
