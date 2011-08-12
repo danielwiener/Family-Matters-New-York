@@ -508,6 +508,7 @@ a:hover {
 ----------------------------------------------- */
 
 #branding {
+	background: #fff url('images/header_bg.jpg') no-repeat top;
 	padding-bottom: 10px;
 	position: relative;
 	z-index: 2;
