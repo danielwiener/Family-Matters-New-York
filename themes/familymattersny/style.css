@@ -510,7 +510,7 @@ a:hover {
 
 #branding {
 	background: #fff url('images/header_bg.jpg') no-repeat top;
-	padding-bottom: 56px;
+	padding-bottom: 94px;
 	position: relative;
 	z-index: 2;
 
@@ -519,6 +519,11 @@ a:hover {
 	margin-right: 600px;
 	/*padding: 3.65625em 0 0; */
 	border: 1px solid #999;
+	left:-10000px; /*starts here hides the title but it is still there in the text*/
+	width:1px;
+	height:1px;
+	overflow:hidden;
+	position: absolute;    /*hiding code ends here hides the title but it is still there in the text*/ 
 }
 #site-title a {
 	color: #111;
@@ -526,6 +531,7 @@ a:hover {
 	font-weight: bold;
 	line-height: 36px;
 	text-decoration: none;
+ 
 }
 #site-title a:hover,
 #site-title a:focus,
