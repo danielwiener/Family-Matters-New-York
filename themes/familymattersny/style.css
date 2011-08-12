@@ -2193,6 +2193,8 @@ p.comment-form-comment {
 
 #colophon {
 	clear: both;
+	background: #EAF1F5 url('images/footer_bg.jpg') no-repeat  center center;
+	height: 200px;
 }
 #supplementary {
 	border-top: 1px solid #ddd;
@@ -2221,7 +2223,7 @@ p.comment-form-comment {
 }
 
 /* Site Generator Line */
-#site-generator {
+/*#site-generator {
 	background: #f9f9f9;
 	border-top: 1px solid #ddd;
 	color: #666;
@@ -2242,7 +2244,7 @@ p.comment-form-comment {
 	line-height: 16px;
 	margin: 0 7px;
 	width: 16px;
-}
+}     */
 
 
 /* =Responsive Structure
