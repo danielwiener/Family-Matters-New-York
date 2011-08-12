@@ -84,7 +84,7 @@ body {
 }
 #branding hgroup {
 	margin: 0;
-	border: 1px solid red;
+	border: none;
 }
 #access div {
 	margin: 0 7.6%;
