@@ -338,6 +338,10 @@ body {
 h1,h2,h3,h4,h5,h6 {
 	clear: both;
 }
+
+h1 {
+	color: #004682;
+}
 hr {
 	background-color: #ccc;
 	border: 0;
@@ -438,6 +442,8 @@ sup {
 sub {
 	top: .5ex;
 }
+
+
 
 /* Forms */
 input[type=text],
@@ -732,7 +738,7 @@ a:hover {
 }
 .entry-title {
 	clear: both;
-	color: #222;
+	color: #004682;
 	font-size: 26px;
 	font-weight: bold;
 	line-height: 1.5em;
@@ -741,7 +747,7 @@ a:hover {
 }
 .entry-title,
 .entry-title a {
-	color: #222;
+	color: #004682;
 	text-decoration: none;
 }
 .entry-title a:hover,
@@ -769,7 +775,7 @@ a:hover {
 .entry-content h2,
 .comment-content h1,
 .comment-content h2 {
-	color: #000;
+	color: #004682;
 	font-weight: bold;
 	margin: 0 0 .8125em;
 }
@@ -1089,7 +1095,7 @@ article.format-status .entry-content {
 	padding: 3.5em 0 0;
 }
 .singular .entry-title {
-	color: #000;
+	color: #004682;
 	font-size: 36px;
 	font-weight: bold;
 	line-height: 48px;
@@ -1327,7 +1333,7 @@ blockquote.pull {
 ----------------------------------------------- */
 
 h1.showcase-heading {
-	color: #666;
+	color: #004682;
 	font-size: 10px;
 	font-weight: 500;
 	letter-spacing: 0.1em;
