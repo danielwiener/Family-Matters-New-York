@@ -516,7 +516,7 @@ a:hover {
 
 #branding {
 	background: #fff url('images/header_bg.jpg') no-repeat top;
-	padding: 0 0 144px 0;     /*the bottom padding is there so the background image displays - the logo etc.  */
+	padding: 0 0 152px 0;     /*the bottom padding is there so the background image displays - the logo etc.  */
     position: relative;   
 	z-index: 2;
 } 
@@ -744,11 +744,13 @@ a:hover {
 	line-height: 1.5em;
 	padding-bottom: .3em;
 	padding-top: 15px;
+
 }
 .entry-title,
 .entry-title a {
 	color: #004682;
-	text-decoration: none;
+	text-decoration: none; 
+
 }
 .entry-title a:hover,
 .entry-title a:focus,
@@ -1099,6 +1101,7 @@ article.format-status .entry-content {
 	font-size: 36px;
 	font-weight: bold;
 	line-height: 48px;
+
 }
 .singular .entry-title,
 .singular .entry-header .entry-meta {
