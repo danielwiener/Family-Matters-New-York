@@ -64,7 +64,9 @@
 	 * as styles, scripts, and meta tags.
 	 */
 	wp_head();
-?>
+?> 
+<script type="text/javascript" src="http://use.typekit.com/ngl1jdo.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 
 <body <?php body_class(); ?>>
