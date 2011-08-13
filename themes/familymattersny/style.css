@@ -328,7 +328,7 @@ body, input, textarea {
 	line-height: 1.625;
 }
 body {
-	background: #fff;
+	background: #fff url('images/page_bg.jpg') no-repeat center 180px; /*adds shadow for bending paper effect*/
 }
 #page {
 	background: #EAF1F5;
