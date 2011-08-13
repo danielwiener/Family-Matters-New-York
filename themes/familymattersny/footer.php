@@ -16,11 +16,10 @@
 
      </div><!-- #page --> 
 	<footer id="colophon" role="contentinfo">
-
-			<div id="site-generator">
-				<?php do_action( 'twentyeleven_credits' ); ?>
-				<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'twentyeleven' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentyeleven' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'twentyeleven' ), 'WordPress' ); ?></a>
-			</div>
+      <div id="footer_bg">
+ xxx
+			</div> 
+			</div> 
 	</footer><!-- #colophon -->
 <?php wp_footer(); ?>
 

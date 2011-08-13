@@ -76,7 +76,7 @@ footer, header, hgroup, menu, nav, section {
 ----------------------------------------------- */
 
 body {
-	padding: 0 2em;
+	padding: 0; 
 }
 #page {
 	margin: 0 auto;
@@ -2193,9 +2193,18 @@ p.comment-form-comment {
 
 #colophon {
 	clear: both;
-	background: #fff url('images/footer_bg.jpg') no-repeat  center center;
+		/*background: #fff url('images/footer_bg.jpg') no-repeat  center center;         */
+     	background: #fff url('images/footer_bg.gif') repeat-x  center center;
 	height: 180px; 
+} 
+
+#footer_bg {
+/*	background: #fff url('images/footer_bg.gif') repeat-x  top left; */
+	 background: transparent url('images/footer_bg.jpg') no-repeat  center center;
+	height: 180px;
+	z-index: 100;  	
 }
+
 #supplementary {
 	border-top: 1px solid #ddd;
 	padding: 1.625em 7.6%;
