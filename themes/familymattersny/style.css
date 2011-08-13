@@ -2192,15 +2192,14 @@ p.comment-form-comment {
 ----------------------------------------------- */
 
 #colophon {
-	clear: both;
-		/*background: #fff url('images/footer_bg.jpg') no-repeat  center center;         */
+		/*continuous color bar across page       */
      	background: #fff url('images/footer_bg.gif') repeat-x  center center;
 	height: 180px; 
 } 
 
 #footer_bg {
-/*	background: #fff url('images/footer_bg.gif') repeat-x  top left; */
-	 background: transparent url('images/footer_bg.jpg') no-repeat  center center;
+/*	background on top of continuous background above. have to use tranparent so you can see the color bar across page */
+	background: transparent url('images/footer_bg.jpg') no-repeat  center center;
 	height: 180px;
 	z-index: 100;  	
 }
