@@ -332,7 +332,6 @@ body {
 }
 #page {
 	background: #EAF1F5;
-	border: 1px solid red;
 }
 
 /* Headings */
@@ -2195,7 +2194,7 @@ p.comment-form-comment {
 #colophon {
 	clear: both;
 	background: #fff url('images/footer_bg.jpg') no-repeat  center center;
-	height: 200px;
+	height: 180px; 
 }
 #supplementary {
 	border-top: 1px solid #ddd;
@@ -2246,7 +2245,10 @@ p.comment-form-comment {
 	margin: 0 7px;
 	width: 16px;
 }     */
-
+ 
+#before_footer {
+	clear: both;
+}
 
 /* =Responsive Structure
 ----------------------------------------------- */
@@ -2547,7 +2549,7 @@ p.comment-form-comment {
 	}
 	#content {
 		margin: 0;
-		width: auto;
+		width: auto; 
 	}
 	.singular #content {
 		margin: 0;
