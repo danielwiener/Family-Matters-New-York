@@ -560,7 +560,7 @@ a:hover {
 	display: block;
 	float: left;
 	margin: 0 auto 6px;
-	padding-top: 100px; /*this moves the menu down so that it over the blue bar in the header bg image */
+	padding-top: 110px; /*this moves the menu down so that it over the blue bar in the header bg image */
 	width: 100%; 
 }
 #access ul {
@@ -579,7 +579,7 @@ a:hover {
 	line-height: 35px; /*changing from ems to pixels because of having to fit with background image measured in pixels */
 	padding: 0 1.2125em;
 	text-decoration: none;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 }
 #access ul ul {
 	-moz-box-shadow: 0 3px 3px rgba(0,0,0,0.2);
@@ -599,7 +599,7 @@ a:hover {
 	top: 0;
 }
 #access ul ul a {
-	background: #f9f9f9;
+	background: #A7C5DC;
 	border-bottom: 1px dotted #ddd;
 	color: #444;
 	font-size: 13px;
@@ -612,15 +612,16 @@ a:hover {
 #access li:hover > a,
 #access ul ul :hover > a,
 #access a:focus {
-	background: #efefef;
+	background: #A3B8CC;
 }
 #access li:hover > a,
 #access a:focus {
-	background: #f9f9f9; /* Show a solid color for older browsers */
-	background: -moz-linear-gradient(#f9f9f9, #e5e5e5);
-	background: -o-linear-gradient(#f9f9f9, #e5e5e5);
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f9f9f9), to(#e5e5e5)); /* Older webkit syntax */
-	background: -webkit-linear-gradient(#f9f9f9, #e5e5e5);
+	background: #A7C5DC; /* Show a solid color for older browsers */
+   /* background: -moz-linear-gradient(#f9f9f9, #e5e5e5);
+   	background: -o-linear-gradient(#f9f9f9, #e5e5e5);
+   	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f9f9f9), to(#e5e5e5));*/ 
+ /* Older webkit syntax */
+	/*background: -webkit-linear-gradient(#f9f9f9, #e5e5e5); */
 	color: #373737;
 }
 #access ul li:hover > ul {
