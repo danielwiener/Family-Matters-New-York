@@ -749,7 +749,8 @@ a:hover {
 .entry-title,
 .entry-title a {
 	color: #004682;
-	text-decoration: none; 
+	text-decoration: none;
+	font-family: ff-meta-web-pro,"Helvetica Neue","Helvetica","Arial",sans-serif;
 
 }
 .entry-title a:hover,
@@ -1096,12 +1097,12 @@ article.format-status .entry-content {
 .singular.page .hentry {
 	padding: 3.5em 0 0;
 }
-.singular .entry-title {
+.singular .entry-title, .singular h1.entry-title {
 	color: #004682;
 	font-size: 36px;
 	font-weight: bold;
 	line-height: 48px;
-
+    font-family: ff-meta-web-pro,"Helvetica Neue","Helvetica","Arial",sans-serif;     
 }
 .singular .entry-title,
 .singular .entry-header .entry-meta {
