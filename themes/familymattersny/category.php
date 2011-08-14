@@ -16,7 +16,7 @@ get_header(); ?>
 
 				<header class="page-header">
 					<h1 class="page-title"><?php
-						printf( __( '%s', 'twentyeleven' ), '<span>' . single_cat_title( '', false ) . '</span>' );
+						printf( __( '%s', 'twentyeleven' ),  single_cat_title( '', false )  );
 					?></h1>
 				</header>
 
