@@ -702,16 +702,17 @@ a:hover {
 	padding: 1.625em 0 0;
 }
 .page-title {
-	color: #666;
-	font-size: 10px;
+	color: #004682;
+	font-size: 30px;
 	font-weight: 500;
 	letter-spacing: 0.1em;
-	line-height: 2.6em;
+  /*  line-height: 2.6em;   */  
 	margin: 0 0 2.6em;
 	text-transform: uppercase;
+	font-family: ff-meta-web-pro,"Helvetica Neue","Helvetica","Arial",sans-serif; 
 }
 .page-title a {
-	font-size: 12px;
+	font-size: 30px;
 	font-weight: bold;
 	letter-spacing: 0;
 	text-transform: none;
