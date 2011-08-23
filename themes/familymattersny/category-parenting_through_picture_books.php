@@ -50,8 +50,9 @@ get_header(); ?>
 						}
 						 
 									while ( have_posts() ) : the_post(); ?>
-                                    <?php if ($total_in_picture_book == 3): ?>
-                                    	<?php the_post_thumbnail( 'thumbnail', array('class' => 'alignleft') ); ?><h2><a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyeleven' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h1><?php the_excerpt(); ?>        
+                                    <?php if ($total_in_picture_book  > 6): ?>  <!-- change to === to 3 for testing -->
+                                    	<?php the_post_thumbnail( 'thumbnail', array('class' => 'alignleft') ); ?> <span class="entry-title"><?php the_title(); ?></span> <?php the_excerpt(); ?> 
+<hr />       
                                      <?php else: ?>
 									<?php
 										/* Include the Post-Format-specific template for the content.
