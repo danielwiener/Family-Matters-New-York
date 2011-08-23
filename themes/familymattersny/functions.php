@@ -108,35 +108,7 @@ if ( ! function_exists( 'twentyeleven_header_style' ) ) :
  * @since Twenty Eleven 1.0
  */
 function twentyeleven_header_style() {
-
-	// If no custom options for text are set, let's bail
-	// get_header_textcolor() options: HEADER_TEXTCOLOR is default, hide text (returns 'blank') or any hex value
-	if ( HEADER_TEXTCOLOR == get_header_textcolor() )
-		return;
-	// If we get this far, we have custom styles. Let's do this.
-	?>
-	<style type="text/css">
-	<?php
-		// Has the text been hidden?
-		if ( 'blank' == get_header_textcolor() ) :
-	?>
-		#site-title,
-		#site-description {
-			position: absolute !important;
-			clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-			clip: rect(1px, 1px, 1px, 1px);
-		}
-	<?php
-		// If the user has set a custom color for the text use that
-		else :
-	?>
-		#site-title a,
-		#site-description {
-			color: #<?php echo get_header_textcolor(); ?> !important;
-		}
-	<?php endif; ?>
-	</style>
-	<?php
+//do nothing
 }
 endif; // twentyeleven_header_style
 
@@ -150,42 +122,7 @@ if ( ! function_exists( 'twentyeleven_admin_header_style' ) ) :
  */
 function twentyeleven_admin_header_style() {
 ?>
-	<style type="text/css">
-	.appearance_page_custom-header #headimg {
-		border: none;
-	}
-	#headimg h1,
-	#desc {
-		font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
-	}
-	#headimg h1 {
-		margin: 0;
-	}
-	#headimg h1 a {
-		font-size: 32px;
-		line-height: 36px;
-		text-decoration: none;
-	}
-	#desc {
-		font-size: 14px;
-		line-height: 23px;
-		padding: 0 0 3em;
-	}
-	<?php
-		// If the user has set a custom color for the text use that
-		if ( get_header_textcolor() != HEADER_TEXTCOLOR ) :
-	?>
-		#site-title a,
-		#site-description {
-			color: #<?php echo get_header_textcolor(); ?>;
-		}
-	<?php endif; ?>
-	#headimg img {
-		max-width: 1000px;
-		height: auto;
-		width: 100%;
-	}
-	</style>
+ <!-- do nothing -->
 <?php
 }
 endif; // twentyeleven_admin_header_style
@@ -199,19 +136,6 @@ if ( ! function_exists( 'twentyeleven_admin_header_image' ) ) :
  * @since Twenty Eleven 1.0
  */
 function twentyeleven_admin_header_image() { ?>
-	<div id="headimg">
-		<?php
-		if ( 'blank' == get_theme_mod( 'header_textcolor', HEADER_TEXTCOLOR ) || '' == get_theme_mod( 'header_textcolor', HEADER_TEXTCOLOR ) )
-			$style = ' style="display:none;"';
-		else
-			$style = ' style="color:#' . get_theme_mod( 'header_textcolor', HEADER_TEXTCOLOR ) . ';"';
-		?>
-		<h1><a id="name"<?php echo $style; ?> onclick="return false;" href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
-		<div id="desc"<?php echo $style; ?>><?php bloginfo( 'description' ); ?></div>
-		<?php $header_image = get_header_image();
-		if ( ! empty( $header_image ) ) : ?>
-			<img src="<?php echo esc_url( $header_image ); ?>" alt="" />
-		<?php endif; ?>
-	</div>
+<!-- Do nothing -->
 <?php }
 endif; // twentyeleven_admin_header_image
