@@ -17,11 +17,10 @@
      </div><!-- #page --> 
 	<footer id="colophon" role="contentinfo">
       <div id="footer_bg">
- xxx
+			&nbsp;
 			</div> 
 			</div> 
 	</footer><!-- #colophon -->
 <?php wp_footer(); ?>
-
 </body>
 </html>
