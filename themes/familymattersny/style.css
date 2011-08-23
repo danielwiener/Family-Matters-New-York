@@ -1761,33 +1761,35 @@ section.recent-posts .other-recent-posts li:after {
 	clear: both;
 	margin: 0 0 2.2em;
 }
-.widget-title {
-	color: #666;
-	font-size: 10px;
-	font-weight: 500;
-	letter-spacing: 0.1em;
-	line-height: 2.6em;
-	text-transform: uppercase;
+.widget-title { 
+		color: #004682;
+		font-size: 20px;
+		font-weight: 700;
+	   /* font-weight: normal;*/ 
+		font-family: ff-meta-web-pro,"Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 .widget ul {
 	font-size: 15px;
 	margin: 0;
+/*	list-style: none outside url('images/bullet01.png'); */
+	list-style: disc inside;
 }
 .widget ul ul {
 	margin-left: 1.5em;
 }
 .widget ul li {
-	color: #777;
-	font-size: 13px;
+	color: #004682;
+	font-size: 12px;
 }
-.widget a {
+.widget a { 
+	color: #004682;
 	font-weight: bold;
 	text-decoration: none;
 }
 .widget a:hover,
 .widget a:focus,
 .widget a:active {
-	text-decoration: underline;
+	color: #2994C3;
 }
 
 /* Search Widget */
