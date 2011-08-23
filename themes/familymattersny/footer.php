@@ -13,11 +13,13 @@
 </div><!-- #main -->
     <!-- <br clear="both">  --> 
 <div id="before_footer"></div>
-
+			<?php if ( is_page() || is_single() ): ?>
+			   <?php get_sidebar( 'footer' ); ?>
+			<?php endif ?>             
      </div><!-- #page --> 
 	<footer id="colophon" role="contentinfo">
       <div id="footer_bg">
-			&nbsp;
+			
 			</div> 
 			</div> 
 	</footer><!-- #colophon -->
