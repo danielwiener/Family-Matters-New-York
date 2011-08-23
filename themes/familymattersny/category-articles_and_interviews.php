@@ -20,7 +20,8 @@ get_header(); ?>
                                     	<?php the_post_thumbnail( 'thumbnail', array('class' => 'alignleft') ); ?> <span class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></span> <?php the_excerpt(); ?> 
 <hr />       
 								<?php endwhile; ?>
-				<?php twentyeleven_content_nav( 'nav-below' ); ?>
+								<?php numeric_pagination(); ?>
+				<?php // twentyeleven_content_nav( 'nav-below' ); ?>
 			</div><!-- #content -->
 		</section><!-- #primary -->
 <?php get_sidebar(); ?>
