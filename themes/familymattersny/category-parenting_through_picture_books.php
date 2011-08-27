@@ -50,7 +50,7 @@ get_header(); ?>
 						}
 						 
 									while ( have_posts() ) : the_post(); ?>
-                                    <?php if ($total_in_picture_book == 3): ?>  <!-- change to === to 3 for testing -->
+                                    <?php if ($total_in_picture_book  > 6): ?>  <!-- change to === to 3 for testing -->
                                     	<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_post_thumbnail( 'thumbnail', array('class' => 'alignleft') ); ?></a> <span class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></span> <?php the_excerpt(); ?> 
 <hr />       
                                      <?php else: ?>
