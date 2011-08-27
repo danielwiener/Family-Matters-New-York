@@ -2747,3 +2747,31 @@ p.comment-form-comment {
 #ie7 section.recent-posts {
 	margin-right: 7.6%;
 }
+
+/* ======================== */
+/* = Gravity Form Changes = */
+/* ======================== */
+#content .gform_wrapper .gform_footer input[type=submit], .gform_widget input[type=submit] {
+	font-family:ff-meta-web-pro,"Helvetica Neue","Helvetica","Arial",sans-serif;
+		padding:3px 10px;
+		font-size:17px;
+		-moz-border-radius:5px;
+		-khtml-border-radius:5px;
+		-webkit-border-radius:5px;
+		border-radius:5px;
+		cursor:pointer;
+		text-decoration:none;
+		margin-top:-3px;
+	    border-bottom: 1px solid #F3C1BF !important; 
+		border-right: 1px solid #B89C9B !important; 
+		background: #004682;
+				/*background:-moz-linear-gradient(bottom,#004682,#004682);
+								background:-webkit-gradient(linear,left bottom,left top,from(#0072B5),to(#004682));*/
+	       /* border: #f24643;*/
+		color: #D6E3EC;
+	}  
+	
+#content .gform_wrapper .gform_footer input:hover[type=submit], .gform_widget input:hover[type=submit] {
+	 	background: #0072B5;
+		color: #A7C5DC;
+	} 
