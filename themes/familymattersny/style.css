@@ -348,6 +348,7 @@ body {
 /* Headings */
 h1,h2,h3,h4,h5,h6 {
 	clear: both;
+	color: #004682;
 }
 
 h1 {
@@ -493,13 +494,16 @@ input#searchsubmit {
 
 /* Links */
 a {
-	color: #1982d1;
+	color: #0072B5;
 	text-decoration: none;
+	font-weight: 600;
+	letter-spacing: .03em;
 }
 a:focus,
 a:active,
 a:hover {
-	text-decoration: underline;
+	text-decoration: none;
+	color: #004682;
 }
 
 /* Assistive text */
@@ -799,8 +803,29 @@ a:hover {
 	font-size: 10px;
 	letter-spacing: 0.1em;
 	line-height: 2.6em;
-	text-transform: uppercase;
+	text-transform: uppercase; 
+	color: #004682; 
+} 
+.entry-content h1 {
+	font-size: 35px;
+}  
+
+.entry-content h2 {
+	font-size: 25px;
+} 
+
+.entry-content h4 {
+	font-size: 20px;
+} 
+
+.entry-content h5 {
+	font-size: 17px;
 }
+
+.entry-content h6 {
+	font-size: 15px;
+}
+
 .entry-content table,
 .comment-content table {
 	border-bottom: 1px solid #ddd;
