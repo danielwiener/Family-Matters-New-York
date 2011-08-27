@@ -5,8 +5,8 @@
  * Contains the closing of the id=main div and all content after
  *
  * @package WordPress
- * @subpackage Twenty_Eleven
- * @since Twenty Eleven 1.0
+ * @subpackage FamilyMattersNY
+ * @since FamilyMattersNY 1.0
  */
 ?>
 
@@ -14,12 +14,13 @@
     <!-- <br clear="both">  --> 
 <div id="before_footer"></div>
 			<?php if ( is_page() || is_single() ): ?>
-			   <?php get_sidebar( 'footer' ); ?>
+				<?php if ( !is_page('how-to-contact-us') ): ?>									
+			    	<?php get_sidebar( 'footer' ); ?> 
+				<?php endif ?> 
 			<?php endif ?>             
      </div><!-- #page --> 
 	<footer id="colophon" role="contentinfo">
-      <div id="footer_bg">
-			
+      <div id="footer_bg">			
 			</div> 
 			</div> 
 	</footer><!-- #colophon -->
